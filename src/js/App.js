@@ -39,7 +39,8 @@ class App extends Component {
                   <Route exact path='/ComponentApi' component={ComponentApi}/>
                   <Route exact path='/Ref'component={RefTute}/>
                   <Route exact path='/Key'component={keyTute}/>
-                  <Route exact path='/Counter' component={Counter}/>
+                  {/* <Route exact path='/Counter' component={Counter}/> */}
+            
                   
                   
                </Switch>
